@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    /*
+    width: 575px;
+    height: 385px;
+    */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344x;
+    height: 100px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    background-color: #080001;
+    color: #F94F6D;
+    padding: 16px 8px;
+    border-radius: 16px;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-right: 9px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+}
